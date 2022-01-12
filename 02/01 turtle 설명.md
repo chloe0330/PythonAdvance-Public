@@ -205,7 +205,7 @@ turtle.forward(100)
 turtle.right(90)
 turtle.forward(100)
 
-mainloop()
+turtle.mainloop()
 ```
 코드를 한 줄 한 줄 읽어보겠습니다.    
 먼저 turtle 모듈을 임포트 한 후에 앞으로 100만큼 이동합니다.     
