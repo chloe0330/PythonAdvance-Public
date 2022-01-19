@@ -93,7 +93,7 @@ from datetime import datetime
 
 win = Tk()
 win.geometry("400x400")
-win.title("Button 사용")
+win.title("현재 시각")
 
 def time():
     print(datetime.now())
@@ -123,7 +123,7 @@ from datetime import datetime
 
 win = Tk()
 win.geometry("400x400")
-win.title("Button 사용")
+win.title("현재 시각")
 
 def time():
     # 현재 시각 변수에 저장
@@ -152,7 +152,7 @@ from tkinter import *
 
 win = Tk()
 win.geometry("800x800")
-win.title("Label 사용")
+win.title("이미지 변경")
 
 # 이미지를 변경하는 함수 정의
 def change(): 
@@ -251,6 +251,8 @@ png 이미지가 아닌 경우 이미지를 가져오는데 실패할 수 있습
 > ```
 
 ### 연습문제
+- 버튼을 클릭하여 배경색을 바꾸는 프로그램을 작성해보세요.
+  - 아래 코드의 빈칸을 채워봅시다.
 ```python
 from tkinter import *
 
@@ -287,3 +289,29 @@ win.mainloop()
 
 <img width="406" alt="스크린샷 2022-01-19 오전 11 45 42" src="https://user-images.githubusercontent.com/89170523/150054147-d7d1c28d-8e4c-4802-820b-3c20fff80756.png">
 
+- 위에서 코딩한 현재 시간 출력 프로그램에서 현재 시각이 button이 아니라 label 에 출력되도록 수정해보세요.
+  - 아래 코드의 빈칸을 채워봅시다.
+```python
+from tkinter import *
+from datetime import datetime
+
+win = Tk()
+win.geometry("400x400")
+win.title("현재 시각")
+
+def time():
+    # 현재 시각 변수에 저장
+    now = datetime.now()
+    # label의 text 변경
+
+
+btn = Button(win)
+btn.config(width = 30, height = 5)
+btn.config(text = "현재 시각")
+btn.config(command = time)
+btn.pack() 
+
+# label 생성
+
+win.mainloop()
+```
