@@ -4,6 +4,7 @@
 
 - 온라인 컴파일러 사이트 : https://replit.com/languages/python3
 - turtle 모듈 실행가능한 컴파일러 사이트 : https://trinket.io/python
+- tkinter 문서 : https://docs.python.org/ko/3/library/tkinter.html#
 
 # 고래코딩
 
