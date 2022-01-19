@@ -23,7 +23,7 @@ GUI 프로그래밍은 프로그램의 겉모습을 만드는 것입니다.
 
 <img width="730" alt="스크린샷 2022-01-19 오전 10 19 10" src="https://user-images.githubusercontent.com/89170523/150045558-5740546d-2d9a-408c-847a-4d774ae5c086.png">    
 
-### Window
+# tkinter
 아래 코드를 실행해 보겠습니다.    
 
 ```python
