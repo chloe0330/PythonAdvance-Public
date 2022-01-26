@@ -221,5 +221,44 @@ button.place(x=60, y=130)
 win.mainloop()
 ```
 
+# Text 위젯
+Text(텍스트)는 여러 줄로 된 문자열을 출력하기 위한 박스입니다.        
+여러줄의 입력도 가능합니다.     
+Text 옵션은 [다음](https://076923.github.io/posts/Python-tkinter-18/)에서 확인할 수 있습니다.
+
+### Text 사용
+```python
+from tkinter import *
+win = Tk()
+
+win.geometry("350x200") 
+win.title("Text 위젯") 
+
+def click1(): 
+    # entry에 입력된 문자열을 가져와서 출력
+    # get 함수는 input 함수와 마찬가지로 숫자를 입력해도 자료형은 항상 문자열입니다.
+    result1 = txt.get("1.0", "end") 
+    print(result1) 
+def click2(): 
+    txt.delete(0.0, END) 
+def click3(): 
+    win.destroy() 
+
+label1= Label(win, text="텍스트 박스에 문자열 입력이 가능합니다.") 
+label1.pack() 
+# 텍스트 위젯 생성
+txt = Text(win, height=5, foreground="blue", background="light green", font="궁서체") 
+txt.pack() 
+button1 = Button(win, text="출 력", height=1, width=10, command=click1) 
+button1.pack() 
+button2 = Button(win, text="지우기", height=1, width=10, command=click2) 
+button2.pack() 
+button3 = Button(win, text="종 료", height=1, width=10, command=click3) 
+button3.pack()
+
+win.mainloop()
+```
+
+<img width="357" alt="스크린샷 2022-01-26 오전 11 39 33" src="https://user-images.githubusercontent.com/48852104/151094894-006599ae-5035-4150-b38d-b96a4f91e3be.png">
 
 
