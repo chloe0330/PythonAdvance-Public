@@ -94,6 +94,3 @@ label3.pack()
 
 win.mainloop()
 ```
-
-- 사칙연산 프로그램을 확장하여 나만의 계산기 프로그램을 만들어보세요.   
-  - ![스크린샷 2022-01-26 오후 12 01 10](https://user-images.githubusercontent.com/48852104/151096888-f57fd128-fe48-4238-9a92-9d5a28670730.png)      
