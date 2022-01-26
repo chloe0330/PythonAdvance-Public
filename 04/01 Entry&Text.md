@@ -268,8 +268,7 @@ win.mainloop()
   - 본문이 비어있다면 '본문을 입력해주세요.' 문자열을 메시지 박스로 출력해주세요.
   - 문자열이 비어있는지 확인하기 위해서 `not` 키워드를 사용합니다.
 <img width="352" alt="스크린샷 2022-01-26 오전 11 54 55" src="https://user-images.githubusercontent.com/48852104/151096320-dd5db1e6-e409-4728-a1f4-18d6c61d198b.png">    
-```
-python
+```python
 from tkinter import *
 from tkinter import messagebox as msg 
 
