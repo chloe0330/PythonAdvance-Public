@@ -267,7 +267,8 @@ win.mainloop()
   - 제목이 비어있다면 '제목을 입력해주세요.' 문자열을 메시지 박스로 출력해주세요.
   - 본문이 비어있다면 '본문을 입력해주세요.' 문자열을 메시지 박스로 출력해주세요.
   - 문자열이 비어있는지 확인하기 위해서 `not` 키워드를 사용합니다.
-<img width="352" alt="스크린샷 2022-01-26 오전 11 54 55" src="https://user-images.githubusercontent.com/48852104/151096320-dd5db1e6-e409-4728-a1f4-18d6c61d198b.png">    
+<img width="352" alt="스크린샷 2022-01-26 오전 11 54 55" src="https://user-images.githubusercontent.com/48852104/151096320-dd5db1e6-e409-4728-a1f4-18d6c61d198b.png">      
+
 ```python
 from tkinter import *
 from tkinter import messagebox as msg 
@@ -316,3 +317,5 @@ label3.pack()
 win.mainloop()
 ```
 
+- 사칙연산 프로그램을 확장하여 나만의 계산기 프로그램을 만들어보세요.   
+  - ![스크린샷 2022-01-26 오후 12 01 10](https://user-images.githubusercontent.com/48852104/151096888-f57fd128-fe48-4238-9a92-9d5a28670730.png)      
