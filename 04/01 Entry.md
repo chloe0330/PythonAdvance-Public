@@ -84,6 +84,7 @@ label3.grid(row=3, column=1)
 win.mainloop()
 ```
 <img width="403" alt="스크린샷 2022-01-26 오전 10 54 08" src="https://user-images.githubusercontent.com/48852104/151090489-7980b571-3d85-43f0-916b-54bb03c4e24c.png">     
+
 ### 사칙연산
 두 수를 입력받아서 더하기(+), 빼기(-), 곱하기(\*), 나누기(/)를 계산하는 프로그램을 만들어 봅시다.           
 
